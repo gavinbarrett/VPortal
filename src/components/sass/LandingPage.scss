@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Carter+One&display=swap');
+
+.navbar {
+	width: 100vw;
+	height: 6vw;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.landing {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.portalpage {
+	width: 100vw;
+	height: 94vh;
+	display: flex;
+}
+
+.portaltitle {
+	width: 60vw;
+	height: 94vh;
+}
+
+.portalimage {
+	width: 40vw;
+	height: 94vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f2e1f6;
+	font-size: 9vw;
+	font-family: 'Carter One', cursive;
+}
+
+.desc {
+	height: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f2e1f6;
+	font-size: 1vw;
+	font-family: 'Bungee', cursive;
+}
+
+.downloadwrapper {
+	height: 39vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.clientdownload {
+	width: 20vw;
+	height: 7vh;
+	border: 2px solid #d566f3;
+	border-radius: 6px;
+	background: #d566f3;
+}
+
+.clientdownload:hover {
+	border: 3px solid #d566f3;
+	border-radius: 7px;
+	background: #6D0289;
+	color: #d566f3;
+}
