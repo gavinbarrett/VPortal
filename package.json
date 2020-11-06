@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server.ts",
+	"build": "npx webpack",
+	"test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +24,7 @@
     "css-loader": "^5.0.1",
     "sass": "^1.29.0",
     "sass-loader": "^10.0.5",
-    "style-loader": "^2.0.0"
+    "style-loader": "^2.0.0",
+    "ts-node": "^9.0.0"
   }
 }
