@@ -1,19 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Navigation } from './Navigation';
 import './sass/LandingPage.scss';
 
-const Navigation = () => {
-	return (<div className="navbar">
-		{"nav"}
-	</div>);
-}
-
 const ClientDownload = () => {
-
 	const download = () => {
 		console.log('downloading');
 	}
-
 	return (<div className="downloadwrapper">
 	<button className="clientdownload" onClick={download}>
 		{"Download Client"}

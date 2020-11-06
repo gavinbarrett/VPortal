@@ -1,0 +1,16 @@
+$basicfont: 'Ubuntu', sans-serif;
+
+.navbar {
+	width: 100vw;
+	height: 10vh;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-family: $basicfont;
+}
+
+.navlink {
+	color: #f2e1f6;
+	margin-right: 7%;
+	font-weight: bold;
+}

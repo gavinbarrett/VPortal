@@ -6,6 +6,12 @@ html, body {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+	color: #f2e1f6;
+	cursor: pointer;
+}
+
 #root {
 	width: 100vw;
 	height: 100vh;

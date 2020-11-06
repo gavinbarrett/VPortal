@@ -1,15 +1,19 @@
 import React, {createRef, useEffect, useState} from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { LandingPage } from './components/LandingPage';
+import { About } from './components/About';
+import { SignIn } from './components/SignIn';
 import { VideoClient } from './components/VideoClient';
 import './components/sass/App.scss';
 
 const App = ({}) => {
 	
 	return (<Switch>
-			<Route path="/" exact render={() => <LandingPage/>}/>
-			<Route path="/vclient" render={() => <VideoClient/>}/>
+		<Route path="/" exact render={() => <LandingPage/>}/>
+		<Route path="/about" render={() => <About/>}/>
+		<Route path="/signin" render={() => <SignIn/>}/>
+		<Route path="/vclient" render={() => <VideoClient/>}/>
 		</Switch>);
 }
 

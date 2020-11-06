@@ -1,12 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Carter+One&display=swap');
-
-.navbar {
-	width: 100vw;
-	height: 6vw;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-}
+$titlefont: 'Carter One', cursive;
+$descfont: 'Bungee', cursive;
+$basicfont: 'Ubuntu', sans-serif;
 
 .landing {
 	width: 100vw;
@@ -17,31 +11,31 @@
 
 .portalpage {
 	width: 100vw;
-	height: 94vh;
+	height: 90vh;
 	display: flex;
 }
 
 .portaltitle {
 	width: 60vw;
-	height: 94vh;
+	height: 90vh;
 }
 
 .portalimage {
 	width: 40vw;
-	height: 94vh;
+	height: 90vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .title {
-	height: 40vh;
+	height: 50vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	color: #f2e1f6;
 	font-size: 9vw;
-	font-family: 'Carter One', cursive;
+	font-family: $titlefont;
 }
 
 .desc {
@@ -51,11 +45,11 @@
 	align-items: center;
 	color: #f2e1f6;
 	font-size: 1vw;
-	font-family: 'Bungee', cursive;
+	font-family: $descfont;
 }
 
 .downloadwrapper {
-	height: 39vh;
+	height: 25vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -67,6 +61,8 @@
 	border: 2px solid #d566f3;
 	border-radius: 6px;
 	background: #d566f3;
+	font-size: 2vw;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .clientdownload:hover {
