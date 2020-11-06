@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navigation } from './Navigation';
+import { VPortalSVG } from './VPortalSVG';
 import './sass/LandingPage.scss';
 
 const ClientDownload = () => {
@@ -24,7 +25,7 @@ const PortalTitle = () => {
 
 const PortalImage = () => {
 	return (<div className="portalimage">
-		{"image"}
+		<VPortalSVG/>
 	</div>);
 }
 

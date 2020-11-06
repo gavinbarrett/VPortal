@@ -129,6 +129,21 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/sass/VPortalSVG.scss":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/sass/VPortalSVG.scss ***!
+  \**************************************************************************************************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, module.id, __webpack_require__.d, __webpack_require__.*, module */
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n;\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".vportalsvg {\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  align-items: center;\\n}\\n\\n.laptop-face {\\n  width: 24vw;\\n  height: 30vh;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  background: black;\\n  border-radius: 5px;\\n}\\n\\n.laptop-screen {\\n  width: 20vw;\\n  height: 26vh;\\n  background: white;\\n  border-radius: 5px;\\n}\\n\\n.laptop-bottom {\\n  width: 30vw;\\n  height: 20vh;\\n  background: black;\\n  border-radius: 7px;\\n  transform: perspective(10px) rotateX(2deg);\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://vportal/./src/components/sass/VPortalSVG.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/sass/VideoClient.scss":
 /*!***************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/sass/VideoClient.scss ***!
@@ -797,6 +812,21 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/components/sass/VPortalSVG.scss":
+/*!*********************************************!*\
+  !*** ./src/components/sass/VPortalSVG.scss ***!
+  \*********************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_VPortalSVG_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./VPortalSVG.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/sass/VPortalSVG.scss\");\n;\n            \n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_VPortalSVG_scss__WEBPACK_IMPORTED_MODULE_1__.default, options);\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_VPortalSVG_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});\n\n//# sourceURL=webpack://vportal/./src/components/sass/VPortalSVG.scss?");
+
+/***/ }),
+
 /***/ "./src/components/sass/VideoClient.scss":
 /*!**********************************************!*\
   !*** ./src/components/sass/VideoClient.scss ***!
@@ -894,7 +924,7 @@ eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.LandingPage = void 0;\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nconst Navigation_1 = __webpack_require__(/*! ./Navigation */ \"./src/components/Navigation.tsx\");\n__webpack_require__(/*! ./sass/LandingPage.scss */ \"./src/components/sass/LandingPage.scss\");\nconst ClientDownload = () => {\n    const download = () => {\n        console.log('downloading');\n    };\n    return (react_1.default.createElement(\"div\", { className: \"downloadwrapper\" },\n        react_1.default.createElement(\"button\", { className: \"clientdownload\", onClick: download }, \"Download Client\")));\n};\nconst PortalTitle = () => {\n    return (react_1.default.createElement(\"div\", { className: \"portaltitle\" },\n        react_1.default.createElement(\"div\", { className: \"title\" }, \"VPortal\"),\n        react_1.default.createElement(\"div\", { className: \"desc\" }, \"Simple, Secure, and Cross-Platform\"),\n        react_1.default.createElement(ClientDownload, null)));\n};\nconst PortalImage = () => {\n    return (react_1.default.createElement(\"div\", { className: \"portalimage\" }, \"image\"));\n};\nconst PortalPage = () => {\n    return (react_1.default.createElement(\"div\", { className: \"portalpage\" },\n        react_1.default.createElement(PortalTitle, null),\n        react_1.default.createElement(PortalImage, null)));\n};\nconst LandingPage = () => {\n    return (react_1.default.createElement(\"div\", { className: \"landing\" },\n        react_1.default.createElement(Navigation_1.Navigation, null),\n        react_1.default.createElement(PortalPage, null)));\n};\nexports.LandingPage = LandingPage;\n\n\n//# sourceURL=webpack://vportal/./src/components/LandingPage.tsx?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.LandingPage = void 0;\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nconst Navigation_1 = __webpack_require__(/*! ./Navigation */ \"./src/components/Navigation.tsx\");\nconst VPortalSVG_1 = __webpack_require__(/*! ./VPortalSVG */ \"./src/components/VPortalSVG.tsx\");\n__webpack_require__(/*! ./sass/LandingPage.scss */ \"./src/components/sass/LandingPage.scss\");\nconst ClientDownload = () => {\n    const download = () => {\n        console.log('downloading');\n    };\n    return (react_1.default.createElement(\"div\", { className: \"downloadwrapper\" },\n        react_1.default.createElement(\"button\", { className: \"clientdownload\", onClick: download }, \"Download Client\")));\n};\nconst PortalTitle = () => {\n    return (react_1.default.createElement(\"div\", { className: \"portaltitle\" },\n        react_1.default.createElement(\"div\", { className: \"title\" }, \"VPortal\"),\n        react_1.default.createElement(\"div\", { className: \"desc\" }, \"Simple, Secure, and Cross-Platform\"),\n        react_1.default.createElement(ClientDownload, null)));\n};\nconst PortalImage = () => {\n    return (react_1.default.createElement(\"div\", { className: \"portalimage\" },\n        react_1.default.createElement(VPortalSVG_1.VPortalSVG, null)));\n};\nconst PortalPage = () => {\n    return (react_1.default.createElement(\"div\", { className: \"portalpage\" },\n        react_1.default.createElement(PortalTitle, null),\n        react_1.default.createElement(PortalImage, null)));\n};\nconst LandingPage = () => {\n    return (react_1.default.createElement(\"div\", { className: \"landing\" },\n        react_1.default.createElement(Navigation_1.Navigation, null),\n        react_1.default.createElement(PortalPage, null)));\n};\nexports.LandingPage = LandingPage;\n\n\n//# sourceURL=webpack://vportal/./src/components/LandingPage.tsx?");
 
 /***/ }),
 
@@ -923,6 +953,20 @@ eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {
 
 "use strict";
 eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.SignIn = void 0;\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nconst Navigation_1 = __webpack_require__(/*! ./Navigation */ \"./src/components/Navigation.tsx\");\n__webpack_require__(/*! ./sass/SignIn.scss */ \"./src/components/sass/SignIn.scss\");\nconst UserAuthenticator = () => {\n    return (react_1.default.createElement(\"div\", { className: \"userauth\" }, \"auth\"));\n};\nconst SignIn = () => {\n    return (react_1.default.createElement(\"div\", { className: \"signincontainer\" },\n        react_1.default.createElement(Navigation_1.Navigation, null),\n        react_1.default.createElement(UserAuthenticator, null)));\n};\nexports.SignIn = SignIn;\n\n\n//# sourceURL=webpack://vportal/./src/components/SignIn.tsx?");
+
+/***/ }),
+
+/***/ "./src/components/VPortalSVG.tsx":
+/*!***************************************!*\
+  !*** ./src/components/VPortalSVG.tsx ***!
+  \***************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/*! CommonJS bailout: this is used directly at 2:23-27 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.VPortalSVG = void 0;\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n__webpack_require__(/*! ./sass/VPortalSVG.scss */ \"./src/components/sass/VPortalSVG.scss\");\nconst VPortalSVG = () => {\n    return (react_1.default.createElement(\"div\", { className: \"vportalsvg\" },\n        react_1.default.createElement(\"div\", { className: \"laptop-face\" },\n            react_1.default.createElement(\"div\", { className: \"laptop-screen\" })),\n        react_1.default.createElement(\"div\", { className: \"laptop-bottom\" })));\n};\nexports.VPortalSVG = VPortalSVG;\n\n\n//# sourceURL=webpack://vportal/./src/components/VPortalSVG.tsx?");
 
 /***/ }),
 

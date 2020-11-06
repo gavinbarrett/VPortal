@@ -1,0 +1,31 @@
+.vportalsvg {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.laptop-face {
+	width: 24vw;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	border-radius: 5px;
+}
+
+.laptop-screen {
+	width: 20vw;
+	height: 26vh;
+	background: white;
+	border-radius: 5px;
+}
+
+.laptop-bottom {
+	width: 30vw;
+	height: 20vh;
+	background: black;
+	border-radius: 7px;
+	transform: perspective(10px) rotateX(2deg);
+}
