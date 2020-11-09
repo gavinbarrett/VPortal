@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navigation } from './Navigation';
 import { VPortalSVG } from './VPortalSVG';
+import { Bottom } from './Bottom';
 import './sass/LandingPage.scss';
 
 const ClientDownload = () => {
@@ -40,6 +41,7 @@ const LandingPage = () => {
 	return (<div className="landing">
 		<Navigation/>
 		<PortalPage/>
+		<Bottom/>
 	</div>);
 }
 

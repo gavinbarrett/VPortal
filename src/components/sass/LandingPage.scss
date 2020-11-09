@@ -4,7 +4,6 @@ $basicfont: 'Ubuntu', sans-serif;
 
 .landing {
 	width: 100vw;
-	height: 100vh;
 	display: flex;
 	flex-direction: column;
 }
@@ -69,5 +68,6 @@ $basicfont: 'Ubuntu', sans-serif;
 	border: 3px solid #d566f3;
 	border-radius: 7px;
 	background: #6D0289;
+	cursor: pointer;
 	color: #d566f3;
 }

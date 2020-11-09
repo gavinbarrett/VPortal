@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './sass/Navigation.scss';
 
 const Navigation = () => {
-        return (<div className="navbar">
+        return (<nav className="navbar">
                 <div className="navlink">
 					<Link to="/">Home</Link>
 				</div>
@@ -13,7 +13,7 @@ const Navigation = () => {
                 <div className="navlink">
 					<Link to="/signin">Sign In</Link>
 				</div>
-        </div>);
+        </nav>);
 }
 
 export {

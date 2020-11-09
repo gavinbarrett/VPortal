@@ -9,4 +9,15 @@
 	width: 100vw;
 	height: 90vh;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.authbox {
+	width: 50vw;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	background: #d566f3;
+	border-radius: 7px;
 }

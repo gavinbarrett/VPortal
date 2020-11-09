@@ -1,6 +1,6 @@
 .container {
-	width: 65vw;
-	height: 75vh;
+	width: 95vw;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -12,4 +12,6 @@
 	width: 60vw;
 	height: 75vh;
 	background: black;
+	border-radius: 4px;
+	overflow: hidden;
 }

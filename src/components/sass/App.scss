@@ -1,20 +1,13 @@
 html, body {
 	width: 100vw;
-	height: 100vh;
 	overflow-x: hidden;
+	overflow-y: scroll;
 	margin: 0;
 	padding: 0;
 }
 
-a {
-	text-decoration: none;
-	color: #f2e1f6;
-	cursor: pointer;
-}
-
 #root {
 	width: 100vw;
-	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
