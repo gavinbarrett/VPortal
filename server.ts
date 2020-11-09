@@ -4,11 +4,8 @@ const socket = require('socket.io');
 const http = require('http');
 const cors = require('cors');
 const app = express();
-app.use(cors());
-const server = http.Server(app);
-const io = socket(server);
-const { Client, Pool } = require('pg');
 const port = 5555;
+const { Client, Pool } = require('pg');
 
 const client = new Client({
   user: 'postgres',
@@ -24,11 +21,6 @@ client.connect();
 app.use(express.json());
 // serve files from ./dist
 app.use(express.static('./dist'));
-
-io.on('connection', (socket) => {
-	socket.emit('greeting', "Welcome to the network.");
-	console.log('User connected.');
-});
 
 const computeHashedPass = async (pass) => {
 	return new Promise((resolve, reject) => {
@@ -74,14 +66,15 @@ app.post('/signin', async (req, res) => {
 		res.send(JSON.stringify({"status":"failed"}));
 });
 
-app.get('/', (req, res) => {
-	res.send('index');
+const server = app.listen(port, () => {
+	console.log(`Listening on port ${port}`);	
 });
 
-app.listen(port, () => {
-	console.log(`Listening on port ${port}`);
+// create socket interface
+const io = socket(server);
+
+io.on('connection', (socket) => {
+	socket.emit('greeting', "Welcome to the network.");
+	console.log('User connected.');
 });
 
-server.listen(3000, () => {
-	console.log(`Socket interface on port 3000`);
-});
