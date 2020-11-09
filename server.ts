@@ -2,8 +2,10 @@ const bcrypt = require('bcrypt');
 const express = require('express');
 const socket = require('socket.io');
 const http = require('http');
+const cors = require('cors');
 const app = express();
-const server = http.createServer(app);
+app.use(cors());
+const server = http.Server(app);
 const io = socket(server);
 const { Client, Pool } = require('pg');
 const port = 5555;
@@ -22,6 +24,11 @@ client.connect();
 app.use(express.json());
 // serve files from ./dist
 app.use(express.static('./dist'));
+
+io.on('connection', (socket) => {
+	socket.emit('greeting', "Welcome to the network.");
+	console.log('User connected.');
+});
 
 const computeHashedPass = async (pass) => {
 	return new Promise((resolve, reject) => {
@@ -73,4 +80,8 @@ app.get('/', (req, res) => {
 
 app.listen(port, () => {
 	console.log(`Listening on port ${port}`);
+});
+
+server.listen(3000, () => {
+	console.log(`Socket interface on port 3000`);
 });
