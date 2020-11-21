@@ -2,6 +2,7 @@
 	width: 95vw;
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background: black;
@@ -14,4 +15,36 @@
 	background: black;
 	border-radius: 4px;
 	overflow: hidden;
+}
+
+.videocontroller {
+	width: 40vw;
+	height: 5vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background: pink;
+}
+
+.soundbutton {
+	width: 3vw;
+	height: 3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.videobutton {
+	width: 3vw;
+	height: 3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.conn {
+	color: white;
+	background: gray;
 }
